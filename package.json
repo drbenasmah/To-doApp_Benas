@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",        // Start command for your app
+    "build": "echo 'No build step required'",   // Build command
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
