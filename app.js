@@ -109,7 +109,7 @@ app.post("/delete", async function(req, res){
   const listName = req.body.listName;
 
   try {
-    if (listName === "Today") {
+    if (listName === day) {
       await Item.findByIdAndRemove(checkedItemId);
       res.redirect("/");
     } else {
